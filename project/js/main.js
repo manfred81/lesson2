@@ -55,6 +55,18 @@ class ProductItem {
     }
    
 }
+class BasketItem {
+    // По сути, нам нужно отображать в корзине те же самые элементы, что и в списке
+    constructor(title, price, img, link) {
+        this.title = title;
+        this.price = price;
+        this.img = img;
+        this.link = link; // Вероятно, ссылка на страницу товара
+    }
+    render() {
+
+    }
+}
 class Basket {
     constructor() {
         // В классе корзины массив с добавленными товарами
